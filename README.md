@@ -1,7 +1,7 @@
 1.安装
 
     cd ~/catkin_ws/src/
-    git clone https://github.com/rand0md00r/navigation.git
+    git clone https://github.com/rand0md00r/src.git
     cd ..
     catkin_make_isolated
 
