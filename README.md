@@ -1,6 +1,6 @@
 1.安装
 
-    cd navigation-ws/
+    cd navigation_ws/
     git clone https://github.com/rand0md00r/src.git
     catkin_make_isolated
 
