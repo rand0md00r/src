@@ -10,13 +10,13 @@ catkin_make_isolated
 #新窗口
 cd ~catkin_ws/
 source devel/setup.bash
-roslaunch scout_gazebo scout_gazebo.launch 
+roslaunch scout_gazebo scout_gazebo.launch
 
 #新窗口
 cd ~catkin_ws/
-source devel_isolated/setup.bash 
+source devel_isolated/setup.bash
 cd ~catkin_ws/src/
-roslaunch nav_run nav.launch 
+roslaunch nav_run nav.launch
 
 
 2.2 部署在小车上
