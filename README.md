@@ -1,22 +1,21 @@
 1.安装
 
-    cd ~/catkin_ws/
+    cd navigation-ws/
     git clone https://github.com/rand0md00r/src.git
     catkin_make_isolated
-
 
 2.运行
 2.1 在虚拟scout上运行
 
     #新窗口
-    cd ~catkin_ws/
-    source devel/setup.bash
+    cd navigation-ws/
+    source devel_isolated/setup.bash
     roslaunch scout_gazebo scout_gazebo.launch
 
     #新窗口
-    cd ~catkin_ws/
+    cd navigation-ws/
     source devel_isolated/setup.bash
-    cd ~catkin_ws/src/
+    cd src/
     roslaunch nav_run nav.launch
 
 
