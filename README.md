@@ -8,12 +8,12 @@
 2.1 在虚拟scout上运行
 
     #新窗口
-    cd navigation-ws/
+    cd navigation_ws/
     source devel_isolated/setup.bash
     roslaunch scout_gazebo scout_gazebo.launch
 
     #新窗口
-    cd navigation-ws/
+    cd navigation_ws/
     source devel_isolated/setup.bash
     cd src/
     roslaunch nav_run nav.launch
